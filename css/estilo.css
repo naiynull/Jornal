@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-body{
+/*.tt{
     background-image:url("../img/2020-dti-pulse-survey-animation.gif");
     background-size: cover;
      background-repeat: no-repeat;
+}*/
+.idd{
+    background-color: #FFF;
 }
 * {
     margin: 0;
@@ -18,7 +21,7 @@ body{
     --secondary: #ff0000;
     --secondary-light: #fc00005e;
     --third: #78909C;
-    --third-light: #d9d9d9;
+    --third-light: #d9d9d9a9;
     --black: #000;
     --white: #FFF;
     
@@ -26,6 +29,7 @@ body{
 
 /*Cabeçalho*/
 header {
+    background-color: var(--third-light);
     border-bottom: 0.4rem solid var(--third);
     display: flex;
     height: 6rem;
@@ -79,20 +83,44 @@ main section.img img {
     width: 50%;
 }
 
-/*Listar*/
-main section.list {
+/*noticias*/
+#emp{
+    width: 600px;
+}
+
+.grid {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 1rem;
+    grid-template-columns: auto auto auto;
+    gap: 0.1rem;
+    margin-left: 10px;
 }
-main section.list aside {
-    background-color: var(--third-light);
-    border-radius: 1rem;
-    padding: 1rem;
-    line-height: 2rem;
+main img{
+    width: 300px;
+    padding-top:1rem;
+
 }
-main section.list aside h3 strong {
-    font-weight: bold;
+#imgt{
+   width: 50px;
+}
+.coluna1{
+    
+}
+#ftemp1{
+    width: 600px;
+  
+}
+#ftemp2{
+display:flex;
+padding-left: 55rem;
+
+}
+
+.tchau{
+    width: 40%;
+}
+
+#ty{
+    padding-left: 40rem;
 }
 #fn{
     display: flex;
